@@ -9,6 +9,7 @@ import Display from "./Display";
 import StartButton from "./StartButton"
 import { useState } from "react/cjs/react.development";
 import { usePlayer } from "../hooks/usePlayer";
+import {useStage} from "../hooks/useStage"
 
 const Tetris = ()=>{
     const [dropTime,setDropTime] = useState(null);
