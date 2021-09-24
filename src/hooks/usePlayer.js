@@ -1,6 +1,6 @@
 import { useState,useCallback } from "react";
 import { TETROMINOS,randomTetromino } from "../tetrominos";
-import { STAGE_HEIGHT, STAGE_WIDTH } from "../gameHelper";
+import { STAGE_WIDTH } from "../gameHelper";
 
 export const usePlayer = () => {
     const[player,setPlayer] = useState({
